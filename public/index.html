@@ -1,43 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!--    PLACEHOLDER INDEX CONTENT -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Coming Soon</title>
+    <link href="https://fonts.googleapis.com/css?family=Karla:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.8.95/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/placeholder.css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/manifest.json" />
+
+    <!--    REACT INDEX CONTENT
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="Official website of Saphirako, a Twitch streamer and developer"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <title>Saphirako</title> -->
   </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+  <body class="min-vh-100 d-flex flex-column">
     <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+        This page is a refactored from BootstrapDash's free placeholder template. 
+    
+        The original can be found here:
+        https://www.bootstrapdash.com/product/coming-soon-page/#product-demo-section?partner=120410
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-dark bg-transparenet">
+                <a class="navbar-brand" href="#">
+                    <img src="%PUBLIC_URL%/logo.svg" alt="logo">
+                </a>
+                <span class="navbar-text ml-auto d-none d-sm-inline-block" />
+                <span class="navbar-text d-none d-sm-inline-block">contact@saphirako.com</span>
+            </nav>
+        </div>
+    </header>
+    <main class="my-auto">
+        <div class="container">
+            <h1 class="page-title">Something is coming.</h1>
+            <p class="page-description">Saphirako is building his website. Come back later to see what he makes!</p>
+            <p>Stay connected</p>
+            <nav class="footer-social-links">
+              <a href="https://www.twitch.tv/saphirako" class="social-link"><i class="mdi mdi-twitch"></i></a>
+              <a href="https://discord.com/invite/3vQDw3K" class="social-link"><i class="mdi mdi-discord"></i></a>
+              <a href="https://www.twitter.com/saphirako" class="social-link"><i class="mdi mdi-twitter"></i></a>
+            </nav>
+        </div>
+    </main>
+    <!-- React Body Content: -->
+      <noscript>You need to enable JavaScript to run this app.</noscript>
+      <div id="root"></div>
   </body>
 </html>
